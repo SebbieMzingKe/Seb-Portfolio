@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.jpg"
-// import profilePic from "../assets/link1.jpg"
+// import profilePic from "../assets/kevinRushProfile.jpg"
+import profilePic from "../assets/link.jpg"
 
 
 const Hero = () => {
