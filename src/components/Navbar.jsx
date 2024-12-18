@@ -11,10 +11,39 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <a
+          href="https://www.linkedin.com/in/sebbie-evayo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-600"
+        >
         <FaLinkedin/>
+        </a>
+        <a
+          href="https://github.com/SebbieMzingKe"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-700"
+        >
         <FaGithub/>
+        </a>
+        <a
+          href="https://x.com/SebbieMzing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400"
+        >
         <FaSquareXTwitter/>
+        </a>
+        <a
+          href="https://www.instagram.com/i.m_sebbie_evayo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-pink-500"
+        >
         <FaInstagram/>
+        </a>
+
       </div>
     </nav>
   )
