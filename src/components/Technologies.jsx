@@ -1,8 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 import { motion } from "motion/react";
@@ -45,7 +46,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <TbBrandNextjs className="text-7xl"/>
+            <FaPython className="text-7xl text-blue-500"/>
         </motion.div>
         <motion.div 
         variants={iconVariants(5)}
@@ -66,7 +67,14 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaNodeJs className="text-7xl text-green-500"/>
+            <SiDjango className="text-7xl text-green-700"/>
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(6)}
+        initial = "initial"
+        animate = "animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiFlask className="text-7xl text-orange-500"/>
         </motion.div>
         <motion.iv 
         variants={iconVariants(4)}

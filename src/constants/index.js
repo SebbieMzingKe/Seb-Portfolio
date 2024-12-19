@@ -10,31 +10,31 @@ export const ABOUT_TEXT = `I am a passionate Software Engineer with a strong fou
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Backend Engineer",
+    role: ["Backend Engineer", "Data Scientist", "Digital Marketing Lead"],
     company: "MMUST iHub",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Led a team in developing and maintaining web applications using Python, Django, Django REST Framework, and PostgreSQL databases. Implemented robust APIs and integrated with PostgreSQL for efficient data management. Collaborated closely with stakeholders to define project requirements, timelines, and ensure alignment with MMUST iHub's mission of fostering innovation and impactful solutions.`,
+    technologies: ["Python", "Django", "Djangorest", "PostgreSQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Health IT",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 - Present",
+    role: "Academy Lead",
+    company: "Health IT Academy",
+    description: `Led a community of 162+ members, fostering collaboration and knowledge sharing in Python and Data Science. Organized and conducted workshops, mentoring sessions, and hands-on projects to enhance members' skills in data analytics, machine learning, and Python programming. Empowered the community to apply data science solutions to real-world problems, particularly in the healthcare domain.`,
+    technologies: ["HTML", "CSS", "Python", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
+    year: "2023 - 2024",
+    role: "Technical Writer",
     company: "Google Developer Students Club",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Served as a Technical Writer for the Google Developer Student Clubs (GDSC), creating comprehensive and engaging technical documentation, guides, and tutorials to support community learning initiatives. Contributed to organizing and coordinating over five tech events, securing venues for 50+ attendees, and collaborating with the university for seamless event logistics. Played a key role in a mini hackathon that benefited 30 students, enhancing their technical skills and fostering innovation. This role deepened my understanding of technical communication and event management.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
+    year: "2024 - 2024",
+    role: "Mentee",
     company: "KamiLimu",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    description: `Selected as 1 of 38 mentees in Kenya to participate in an 8-month mentorship program that upskills students in personal and professional development, innovation, ICT skills, scholarship expertise, and community engagement.`,
+    technologies: ["Javascript", "React.js", "CSS", "PostgreSQL", "MySQL", "Python", "Flask"],
   },
 ];
 
@@ -43,21 +43,21 @@ export const PROJECTS = [
     title: "Safe Mom",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Developed Safe Mom, a Python-based platform using XGBoost to predict preeclampsia risk with 90%+ accuracy, enhancing care and reducing maternal mortality.",
     technologies: ["HTML", "CSS", "Flask", "PostgreSQL", "Python"],
   },
   {
     title: "Duka Yangu",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Developed Duka Yangu, a Django-based e-commerce platform with features like inventory management, secure payments, a recommendation engine, and optimized task processing.",
     technologies: ["HTML", "CSS", "Django", "Javascript"],
   },
   {
     title: "Jifunze",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Developed Jifunze, a CMS for course management using Django, DRF, Docker, Nginx, and Redis, reducing query times by 40% and optimizing server efficiency.",
     technologies: ["HTML", "CSS", "Django", "Docker", "Javascript"],
   },
   {
