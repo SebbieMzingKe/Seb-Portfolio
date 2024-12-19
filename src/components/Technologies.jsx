@@ -70,14 +70,14 @@ const Technologies = () => {
             <SiDjango className="text-7xl text-green-700"/>
         </motion.div>
         <motion.div 
-        variants={iconVariants(6)}
+        variants={iconVariants(4)}
         initial = "initial"
         animate = "animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiFlask className="text-7xl text-orange-500"/>
         </motion.div>
         <motion.iv 
-        variants={iconVariants(4)}
+        variants={iconVariants(3)}
         initial = "initial"
         animate = "animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
