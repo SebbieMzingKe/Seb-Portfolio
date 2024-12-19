@@ -5,7 +5,7 @@
         "use": "@vercel/node"
     },
     {
-        "source": "public/**/*",
+        "src": "public/**/*",
         "use": "@vercel/static"
 
     }
@@ -13,7 +13,7 @@
 ],
 "routes": [
     {
-        "source": "/(.*)",
+        "src": "/(.*)",
         "dest": "/index.html"
     }
 ]
