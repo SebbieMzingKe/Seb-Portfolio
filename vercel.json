@@ -1,0 +1,20 @@
+{
+    "builds":[
+    {
+        "src": "package.json",
+        "use": "@vercel/node"
+    },
+    {
+        "source": "public/**/*",
+        "use": "@vercel/static"
+
+    }
+
+],
+"routes": [
+    {
+        "source": "/(.*)",
+        "dest": "/index.html"
+    }
+]
+}
