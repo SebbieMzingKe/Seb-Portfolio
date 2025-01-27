@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a passionate Software Engineer with a strong fou
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: ["Backend Engineer, Data Scientist, Digital Marketing Lead"],
+    role: ["Backend Engineer Data Scientist Digital Marketing Lead"],
     company: "MMUST iHub",
     description: `Led a team in developing and maintaining web applications using Python, Django, Django REST Framework, and PostgreSQL databases. Implemented robust APIs and integrated with PostgreSQL for efficient data management. Collaborated closely with stakeholders to define project requirements, timelines, and ensure alignment with MMUST iHub's mission of fostering innovation and impactful solutions.`,
     technologies: ["Python", "Django", "Djangorest", "PostgreSQL"],
