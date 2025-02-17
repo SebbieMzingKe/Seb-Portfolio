@@ -41,7 +41,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Safe Mom",
-    image: project1,
+    image: safe-mom,
     description:
       "Developed Safe Mom, a Python-based platform using XGBoost to predict preeclampsia risk with 90%+ accuracy, enhancing care and reducing maternal mortality.",
     technologies: ["HTML", "CSS", "Flask", "PostgreSQL", "Python"],
@@ -62,7 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "Blogging Platform",
-    image: project4,
+    image: blog,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js"],

@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/link.jpg"
+import profilePic from "../assets/link.webp"
 
 import { motion } from "motion/react";
 
