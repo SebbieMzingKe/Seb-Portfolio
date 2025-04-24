@@ -4,7 +4,8 @@ import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { SiDjango } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPostgresql } from "react-icons/bi"
+import { FaGolang } from "react-icons/fa6";
 
 import { motion } from "motion/react";
 
@@ -76,13 +77,21 @@ const Technologies = () => {
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiFlask className="text-7xl text-orange-500"/>
         </motion.div>
-        <motion.iv 
+        <motion.div 
         variants={iconVariants(3)}
         initial = "initial"
         animate = "animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <BiLogoPostgresql className="text-7xl text-sky-700"/>
-        </motion.iv>
+        </motion.div>
+        <motion.div
+        variants={iconVariants(3.5)}
+        initial = "initial"
+        animate = "animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4"
+        >                    
+        <FaGolang className="text-7xl text-blue-400"/>
+        </motion.div>
       </motion.div>
     </div>
   )

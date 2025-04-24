@@ -1,4 +1,4 @@
-import aboutImg from "../assets/seb.webp";
+import aboutImg from "../assets/sebAbout.webp";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 
