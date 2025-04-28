@@ -65,7 +65,7 @@ Mastered networking basics (cable crimping, configuration, troubleshooting) for 
 Learned system administration including user management and server configurations. 
 Collaborated on JavaFX applications for student registration, strengthening programming skills.
     `,
-    technologies: ["JavaScript", "React.js", "CSS", "PostgreSQL", "MySQL", "Python", "Flask"],
+    technologies: ["Java", "MySQL", "Android", "Python"],
   },
 ];
 
