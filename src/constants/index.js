@@ -45,7 +45,7 @@ Created comprehensive technical documentation, tutorials, and guides.
 Organized over five tech events and collaborated with the university for logistics. 
 Facilitated a mini hackathon benefiting 30 students, enhancing innovation and skill development.
     `,
-    technologies: ["Python", "Svelte", "Three.js", "PostgreSQL"],
+    technologies: ["Python", "Svelte", "PostgreSQL"],
   },
   {
     year: "2024 - 2024",
