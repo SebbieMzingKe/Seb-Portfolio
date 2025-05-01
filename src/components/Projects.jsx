@@ -6,12 +6,12 @@ const Projects = () => {
     <div className="border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       {PROJECTS.map((project, index) => (
-        <div key={index} className="mb-8 flex  lg:justify-center">
+        <div key={index} className="mb-8 flex flex-col lg:justify-center md:flex-row">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full px-3 lg:w-1/4"
+            className="w-full md:px-3 lg:w-1/4"
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
@@ -25,7 +25,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl  h-[150px] flex flex-col justify-between lg:w-3/4"
+            className="w-full max-w-xl flex flex-col justify-between lg:w-3/4"
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
