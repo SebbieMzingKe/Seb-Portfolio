@@ -55,10 +55,10 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className='w-full max-w-xl lg:w-3/4'
         >
-          <form
+           <form
             ref={form}
             onSubmit={sendEmail}
-            className='space-y-4 px-6 lg:px-0'
+            className='space-y-4 px-6 pt-5 lg:px-0'
           >
             <div>
               <label className='block text-sm font-semibold'>Name *</label>
