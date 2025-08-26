@@ -3,21 +3,25 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="flex container mx-auto px-8 items-center justify-between">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="logo" />
+        <Link to="/privacy-policy">
+          <img className="mx-2 w-10" src={logo} alt="logo" />
+        </Link>
+        {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a
+        <a
           href="https://www.linkedin.com/in/sebbie-evayo/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-600"
         >
-        <FaLinkedin/>
+          <FaLinkedin />
         </a>
         <a
           href="https://github.com/SebbieMzingKe"
@@ -25,7 +29,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hover:text-gray-700"
         >
-        <FaGithub/>
+          <FaGithub />
         </a>
         <a
           href="https://x.com/SebbieMzing"
@@ -33,7 +37,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hover:text-blue-400"
         >
-        <FaSquareXTwitter/>
+          <FaSquareXTwitter />
         </a>
         <a
           href="https://www.instagram.com/i.m_sebbie_evayo/"
@@ -41,12 +45,11 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hover:text-pink-500"
         >
-        <FaInstagram/>
+          <FaInstagram />
         </a>
-
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
