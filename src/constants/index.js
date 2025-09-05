@@ -2,6 +2,9 @@ import project1 from "../assets/projects/safe-mom.webp";
 import project2 from "../assets/projects/duka.webp";
 import project3 from "../assets/projects/jifunze.webp";
 import project4 from "../assets/projects/blog.webp";
+import project5 from "../assets/projects/cloud.png";
+import project6 from "../assets/projects/ecommerce.png";
+import project7 from "../assets/projects/movie.png";
 
 export const HERO_CONTENT = `
 I am a passionate Software Engineer with a strong foundation in building innovative, scalable, and impactful web applications. 
@@ -16,6 +19,17 @@ export const ABOUT_TEXT = HERO_CONTENT;
 
 export const EXPERIENCES = [
   {
+    year: "2025 - Present",
+    role: ["Full-Stack Developer"],
+    company: "Tarech Center",
+    description: `
+Develop type-safe web applications using TypeScript in a modern monorepo architecture, ensuring scalable and maintainable codebases.
+Led development of a CV/resume builder with Next.js and NestJS, to serve 500+ users.
+Integrate WhatsApp job alerts to boost user engagement by 60%.
+    `,
+    technologies: ["Nest.js", "Typescript", "javaScript", "PostgreSQL"],
+  },
+  {
     year: "2023 - Present",
     role: ["Backend Engineer, ", "Data Scientist, ", "Digital Marketing Lead"],
     company: "MMUST iHub",
@@ -24,7 +38,7 @@ Led a team in developing and maintaining web applications using Python, Django, 
 Implemented robust APIs and integrated PostgreSQL for efficient data management. 
 Collaborated with stakeholders to define requirements, timelines, and align projects with MMUST iHub's innovation goals.
     `,
-    technologies: ["Python", "Django", "Django REST", "PostgreSQL"],
+    technologies: ["Python", "Django", "Django REST", "PostgreSQL", "Node.js"],
   },
   {
     year: "2023 - Present",
@@ -70,6 +84,42 @@ Collaborated on JavaFX applications for student registration, strengthening prog
 ];
 
 export const PROJECTS = [
+  {
+    title: "Cloud-Ready Social Media Platform",
+    image: project5,
+    link: "https://uq8vdtt7qv.us-west-2.awsapprunner.com/",
+    description: `
+Built a Golang social media platform for setting and sharing life goals and aspirations.
+Containerized the application, pushed images to AWS ECR, and deployed using AWS App Runner for fully managed cloud hosting.
+Integrated Google Cloud credentials for secure user authentication during sign-up.
+Designed and automated a complete CI/CD pipeline with GitHub Actions, handling build, test, and deploy workflows.
+Ensured scalability and reliability of deployments through caching, multi-stage builds, and automated migrations.
+    `,
+    technologies: ["HTML", "CSS", "Golang", "PostgreSQL", "Github Actions, AWS"],
+  },
+  {
+    title: "Pengo",
+    image: project6,
+    link: "https://documenter.getpostman.com/view/31729350/2sB3BEoAmv",
+    description: `
+Developed a RESTful API backend supporting product management, carts, orders, ratings, and supplier integration.
+Implemented secure authentication & authorization, product CRUD operations, and advanced features like distress-proofing and deal management.
+Integrated M-Pesa STK Push for mobile payments and supplier B2C payouts.
+Deployed on Render with a production-ready API available for live testing.
+    `,
+    technologies: ["Node.js", "Express", "MongoDB", "Render", "M-Pesa"],
+  },
+  {
+    title: "Movie Application",
+    image: project7,
+    link: "https://github.com/SebbieMzingKe/movieAppMicroservice",
+    description: `
+Designed 3 services with gRPC, Kafka, and MySQL, enabling scalable async communication.
+Deployed on Kubernetes with Docker, achieving 99.9% uptime and 30% faster service interactions.
+Implemented observability by instrumenting the services with logs, metrics, and distributed tracing (Jaeger) to monitor application and database real-time performance, and  Consul for dynamic service discovery..
+    `,
+    technologies: ["HTML", "CSS", "Flask", "PostgreSQL", "Python"],
+  },
   {
     title: "Safe Mom",
     image: project1,
