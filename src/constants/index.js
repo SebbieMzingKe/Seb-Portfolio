@@ -87,7 +87,8 @@ export const PROJECTS = [
   {
     title: "Cloud-Ready Social Media Platform",
     image: project5,
-    link: "https://uq8vdtt7qv.us-west-2.awsapprunner.com/",
+    link: "https://github.com/SebbieMzingKe/cloud-infrastructure",
+    // link: "https://uq8vdtt7qv.us-west-2.awsapprunner.com/",
     description: `
 Built a Golang social media platform for setting and sharing life goals and aspirations.
 Containerized the application, pushed images to AWS ECR, and deployed using AWS App Runner for fully managed cloud hosting.
