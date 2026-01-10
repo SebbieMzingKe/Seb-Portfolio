@@ -9,10 +9,24 @@ const Navbar = () => {
   return (
     <nav className="flex container mx-auto px-8 items-center justify-between">
       <div className="flex flex-shrink-0 items-center">
-        <Link to="/privacy-policy">
+        <Link to="/">
           <img className="mx-2 w-10" src={logo} alt="logo" />
         </Link>
         {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
+      </div>
+      <div className="m-8 flex items-center justify-center gap-6 text-lg font-medium text-neutral-200">
+        <Link to="/posts" className="hover:text-cyan-300">
+          Posts
+        </Link>
+        <Link to="/explore" className="hover:text-cyan-300">
+          Explore
+        </Link>
+        <Link to="/tech-blog" className="hover:text-cyan-300">
+          Tech Blog
+        </Link>
+        {/* <Link to="/privacy-policy" className="hover:text-cyan-300">
+          Privacy
+        </Link> */}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
