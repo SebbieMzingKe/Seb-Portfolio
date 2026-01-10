@@ -6,7 +6,10 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Explore from "./pages/explore";
+import Posts from "./pages/posts";
 import PrivacyPolicy from "./pages/privacy-policy";
+import TechBlog from "./pages/tech-blog";
 
 const App = () => {
   return (
@@ -28,6 +31,9 @@ const App = () => {
           </div>
         } />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/posts" element={<Posts />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/tech-blog" element={<TechBlog />} />
       </Routes>
     </div>
   );
