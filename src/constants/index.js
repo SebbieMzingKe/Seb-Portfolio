@@ -19,6 +19,14 @@ export const ABOUT_TEXT = HERO_CONTENT;
 
 export const EXPERIENCES = [
   {
+    year: "2026 - Present",
+    role: ["Software Engineer"],
+    company: "Truehost Cloud",
+    description: `
+    `,
+    technologies: [],
+  },
+  {
     year: "2025 - 2025",
     role: ["Full-Stack Developer"],
     company: "Tarech Center",
